@@ -7,39 +7,37 @@
 	<link rel="stylesheet" href="goodmanstyle.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Akshar&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Akshar&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="script.js" defer></script>
 </head>
 
-<body>
+<body>	
 	<section class="header">
-	<nav> 
-		<a href="dreamcasuine.html"><img src="http://lincoln.sjfc.edu/~dmz05520/personal/logo2.jpg"></a>
-		<div class="nav-links" id="navLinks">
-		<i class="fa fa-times" onclick="hideMenu()"></i>
-		<ul>
-		<li><a href="http://lincoln.sjfc.edu/~dmz05520/personal/dreamcasuine.html">Home</a></li>
-		<li><a href="#services">Services</a></li>
-		 <li><a href="#menu">Menu</a></li>
-		 <li><a href="#photogallery">Gallery</a></li>
-		 <li><a href="#contactus">Contact</a></li>
-		</ul>
+		<nav> 
+			<a href="dreamcasuine.html"><img src="http://lincoln.sjfc.edu/~dmz05520/personal/logo2.jpg"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="http://lincoln.sjfc.edu/~dmz05520/personal/dreamcasuine.html">Home</a></li>
+						<li><a href="#services">Services</a></li>
+		 				<li><a href="#menu">Menu</a></li>
+		 				<li><a href="#photogallery">Gallery</a></li>
+		 				<li><a href="#contactus">Contact</a></li>
+					</ul>
+			</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<div class="text-box">
+			<h1>D.R.E.A.M. CASUINE</h1>
+			<h3>(Decorative, Refined, Exquisite, Assertive, Meals)</h3>
+			<p>Our services offer professional and reliable catering services to create and enhance events,<br>
+				 whether for business or for pleasure.</p>
+			<a href="#services" class="hero-bt">Click here to learn more about our services</a>
+
 		</div>
-		<i class="fa fa-bars" onclick="showMenu()"></i>
-	</nav>
-
-
-	<div class="text-box">
-		<h1>D.R.E.A.M. Casuine</h1>
-		<h3>(Decorative, r , Exquisite, a, Meals)</h3>
-		<p>Our services offer professional and reliable catering services to create and enhance events,<br>
-		 whether for business or for pleasure.</p>
-		<a href="#services" class="hero-bt">Click here to learn more about our services</a>
-
-	</div>
-
-
-
 	</section>
 <!------------------------------------------------------------------------------------------------------------------------------------>
 
@@ -63,24 +61,35 @@
 	<div class="row">
 		<div class="services-col">
 		<h3>Basic (Small Party Event)</h3>
-		<p>This is our basic service containg meals for 25 to 50 meals. Excellent for a small lunch in, or backyard pool party.</p><br>
+		<p>Looking for a catering option that covers the essentials for your event? 
+			Look no further than our basic package! Our basic package is designed to 
+			provide delicious meals for events with 25 to 50 guests. Let us take care of 
+			the food while you enjoy your special occasion.</p><br>
 		</div>
 
 		 <div class="services-col">
 		 <h3>Mid (Medium Sized Event)</h3>
-                <p>Our Mid range catering service offers meals for 75 to 150 person's. This service is perfect for a seminar or confrence like setting.</p><br>
+                <p>Indulge in our Mid catering package for your event with 75 to 150 guests. 
+					Our Mid package offers an exceptional culinary experience, featuring the 
+					finest ingredients and expertly crafted dishes. From hors d'oeuvres to desserts,
+					 our team is dedicated to providing an unforgettable dining experience for your 
+					 guests.</p><br>
 		</div>
 
 		 <div class="services-col">
 		 <h3>Premium (Large Scale Event)</h3>
-                <p> Our premium service offers meals for over 200 to 300 person's or requested amount. This service is excellent for weddings and other large party events.
-                </p><br>
+                <p>Planning a grand event for 200 to 300 guests? Our premium catering package is 
+					perfect for you! Our premium package is designed to impress, featuring a 
+					wide range of delectable dishes crafted with the freshest ingredients. 
+					Our experienced team will work closely with you to create a customized menu 
+					that suits your tastes and preferences. Trust us to make your event a memorable 
+					one.</p><br>
 		</div>
 	</div>
 
 
 	<div class="text-box2">
-                <p>Our services our based on a tier level arrangment.This depends on horderves,<br>
+                <p>Our services our based on a tier level arrangment.This depends on hors d'oeuvres,<br>
 		 appitizers, dessets and food items. We also offer B.Y.O.(Build Your Own) catering options.</p>
                 <a href="#menu" class="hero-btn">Click here for our menu</a>
 
@@ -108,33 +117,39 @@
 <section class="galbackground">
 <section class="photogallery">
 	<h1> Photo Gallery</h1><br><br>
-<div class="container">
-        <div class="gallery">
+<body>
+	<div class="wrapper">
+		<i id="left" class="fa-solid fa-angle-left"></i>
+        <div class="carousel">
+			
                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/6.JPEG">
-                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/2.JPEG">
-                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/7.JPEG">
-                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/4.JPEG">
+                <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/2.JPEG">
+                <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/7.JPEG">
+                <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/4.JPEG">
                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/5.JPEG">
-                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/1.JPEG">
-                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/3.JPEG">
-                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/IMG_9384.JPEG">
+                <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/1.JPEG">
+                <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/3.JPEG">
+                <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/IMG_9384.JPEG">
                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/9.JPEG">
-                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/IMG_1183.JPEG">
+                <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/IMG_1183.JPEG">
                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/8.JPEG">
-                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/IMG_9721.JPEG">
-		<img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/IMG_5878.JPEG">
-                 <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/IMG_5879.JPEG">
-
+                <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/IMG_9721.JPEG">
+				<img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/IMG_5878.JPEG">
+                <img src="http://lincoln.sjfc.edu/~dmz05520/personal/photos/IMG_5879.JPEG">
+			
         </div>
+		<i id="right" class="fa-solid fa-angle-right"></i>
+	</div>
+</body>
 
 
-
-</div>
+	</div>
 </section>
 </section>
 </section>
 
-<!-----------Contact------------->
+
+<!-----------Contact-------------
 
 <section id="contactus">
 <section class="contactus">
@@ -147,20 +162,37 @@
 	
 
 </section>
-</section>
+</section>>
 
 
 <!-----------footer------------->
-<section id="footer">
-<section class="footer">
-        <p>©2022 D.R.E.A.M. Casuine.   All the information on this website -
-        <a href=" http://lincoln.sjfc.edu/~dmz05520/personal/dreamcasuine.html">D.R.E.A.M. Casuine</a>
-         - is published in good faith and for general information purposes for the campany.</p>
-        <p>©2022 Damien Zawatski Co.  If you require any more information or have any questions about our site's disclaimer,
-         please contact us by email at dmz05520@sjfc.edu or call (315)-345-6749.</p>
-</section>
-</section>
 
+<section id="footer">
+	<section class="footer">
+	<h3>D.R.E.A.M. CASUINE</h3>
+	<div class="social">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-youtube"></i></a>
+		<a href="#"><i class="fab fa-linkedin"></i></a>
+	</div>
+
+	<ul class="sections">
+		<li><a href="dreamcasuine.html">Home</a></li>
+		<li><a href="#services">Services</a></li>
+		<li><a href="#menu">Menu</a></li>
+		<li><a href="#photogallery">Gallery</a></li>
+		<li><a href="#contactus">Contact</a></li>
+	</ul>
+	<p class="copyright">
+		D.R.E.A.M. Casuine @ 2023
+	</p>
+	<p class="copyright">
+		Damien Zawatski @ 2023
+	</p>
+</section>
+</section>
 
 
 <!------JavaScript for Toggle Menu------>
