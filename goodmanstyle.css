@@ -298,8 +298,11 @@ h2{
 	background: #d4d4d4;
 	opacity: .7;
 	border-radius: 50%;
-	transform: translateY(-50%);
-	
+	transform: translateY(-50%);	
+}
+
+.wrapper i:hover{
+	opacity: .2
 }
 
 .wrapper i:first-child{
@@ -319,7 +322,7 @@ h2{
 }
 
 .carousel img{
-	height: 500px;
+	height: 600px;
 	object-fit: cover;
 	width: calc(100% /3);
 	margin-left: 10px;
@@ -386,7 +389,7 @@ h2{
 }
 
 .submit-form{
-	background: #6e1825
+	background: #6e1825;
 }
 
 .first-text{
@@ -451,9 +454,10 @@ ul li {
 }
 .input-box{
 	height: 40px;
-	width: 70%;
+	width: 90%;
 	margin: 30px 0;
 	position: relative;
+	padding-left: 10%
 }
 
 .input{
@@ -466,17 +470,19 @@ ul li {
 	padding-left: 12px;
 	color:#fff;
 	font-size: 18px;
+	
 }
 
 .input-box lable {
 	position: absolute;
 	top: 50%;
 	left: 10px;
-	padding-left: 10px;
+	padding-left: 10%;
 	transform: translateY(-50%);
 	font-size: 15px;
 	font-weight: 500;
 	color: #fff;
+	padding-left: 15%;
 }
 
 .input-box .input:focus ~ lable,
@@ -485,7 +491,7 @@ ul li {
 	left: 10px;
 	font-weight: 500;
 	font-size: 15px;
-	padding: 5px;
+	padding-left: 10%;
 }
 
 textarea.input{
@@ -496,13 +502,14 @@ textarea.input{
 .btn{
 	position: relative;
 	top: 100px;
+	left: 10%;
 	background: #fff;
 	color: #6e1825;
 	outline: none;
 	border-radius: 5px;
 	height: 45px;
 	width: 30%;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .btn:hover{
