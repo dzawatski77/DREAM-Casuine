@@ -168,6 +168,11 @@ p{
 	padding: 10px;
 }
 	
+p a{ 
+	text-decoration: none;
+	color: #6e1825;
+}
+
 .row{
 	margin-top: 5%;
 	display: flex;
@@ -270,11 +275,13 @@ h2{
 	padding: 0 10px;
 
 }
+
 .wrapper{
-	max-width: 90%;
+	max-width: 100%;
 	min-height: 80%;
 	position: relative;
-
+	overflow: hidden;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .wrapper i{
@@ -283,10 +290,13 @@ h2{
 	width: 46px;
 	cursor: pointer;
 	position: absolute;
+	margin-left: 30px;
+	margin-right: 30px;
 	font-size: 1.2rem;
 	text-align: center;
 	line-height: 46px;
 	background: #d4d4d4;
+	opacity: .7;
 	border-radius: 50%;
 	transform: translateY(-50%);
 	
@@ -306,15 +316,13 @@ h2{
 	scroll-behavior: smooth;
 	overflow: hidden;
 	box-shadow: 0 0 8px 8px rgba(0,0,0,.4);
-
 }
 
 .carousel img{
 	height: 500px;
 	object-fit: cover;
 	width: calc(100% /3);
-	margin-left: 15px;
-	
+	margin-left: 10px;
 }
 
 .carousel img:first-child{
